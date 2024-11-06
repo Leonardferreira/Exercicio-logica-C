@@ -1,5 +1,6 @@
-/* Faï¿½a um programa que receba o salï¿½rio-base de um funcionï¿½rio, calcule e mostre o seu salï¿½rio a receber, sabendo-se que esse
-funcionï¿½rio teve gratificaï¿½ï¿½o de R$ 600,00 e paga imposto de 10% sobre o salï¿½rio base*/
+/*  Faça um programa que receba o salário-base de um funcionário, calcule e mostre o seu salário a receber, sabendo-se que esse
+funcionário teve gratificação de R$ 600,00 e paga imposto de 10% sobre o salário base.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,5 +1,5 @@
-/*Faï¿½a um programa que receba o salï¿½rio de um funcionï¿½rio e o percentual de aumento, calcule e mostre o valor do aumento e o
-novo salï¿½rio.*/
+/*Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o
+novo salário.*/
 
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main(){
 
     novoSalario = salario + (salario * aumento/100);
     printf("Valor do aumento: %2.f%% \n", aumento);
-    printf("Novo salï¿½rio: R$%2.f \n",novoSalario);
+    printf("Novo salãrio é : R$%2.f \n",novoSalario);
 
     return 0;
 }

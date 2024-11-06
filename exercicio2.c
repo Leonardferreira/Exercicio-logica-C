@@ -1,4 +1,4 @@
-/*Faï¿½a um programa que receba trï¿½s notas,calcule e mostre a mï¿½dia aritmï¿½tica entre elas.*/
+/*faça um programa que receba três notas,calcule e mostre a mï¿½dia aritmï¿½tica entre elas.*/
 
 
 
@@ -29,7 +29,7 @@ int main(){
     counter += numb[i];
     }
     avg = counter /3;
-    printf("A mï¿½dia das notas digitadas sï¿½o: %2.f", avg);   
+    printf("A mÃ©dia das notas digitadas são: %2.f", avg);   
     
     return 0;
 }
