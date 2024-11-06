@@ -8,4 +8,4 @@
 # link para o curso https://www.youtube.com/watch?v=2w8GYzBjNj8
 # Caso desejar pode apoiar o Professor, o curso também pode ser adquirido para ter acesso a 
 # certificado e a todos os PDF das aulas e exercicios https://profpietro.com/curso-exercicios-c/ 
-#  Atualização 
+#  Atualização
