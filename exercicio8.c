@@ -1,4 +1,4 @@
-/*faï¿½a um programa que receba o valor de um depï¿½sito e o valor da taxa de juros, calcule e mostre o valor do rendimento e o valor
+/*Faça um programa que receba o valor de um depï¿½sito e o valor da taxa de juros, calcule e mostre o valor do rendimento e o valor
 total depois do rendimento.*/
 
 
@@ -16,7 +16,7 @@ int main(){
     printf("Insira a taxa a.m: \n");
     scanf("%d",&tax);
 
-    rendi = dep + (dep * tax)/100;
+    rendi = (dep * tax)/100;
 
     valorTotal = dep + rendi;
     printf("Rendimento: %.2f \n",rendi);
