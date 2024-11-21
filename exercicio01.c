@@ -1,5 +1,6 @@
-/*Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números.*/
+/*Faï¿½a um programa que receba quatro nï¿½meros inteiros, calcule e mostre a soma desses nï¿½meros.*/
 
+//estrutura sequÃªncial
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,6 +29,6 @@ int main(){
         scanf("%d", &numb[i]);
         contador += numb[i];
     }
-    printf("A soma dos valores digitados é %d \n", contador );
+    printf("A soma dos valores digitados ï¿½ %d \n", contador );
     return 0;
 }

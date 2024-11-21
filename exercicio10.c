@@ -1,5 +1,6 @@
-/*Faça um programa que calcule e mostre a área de um círculo. Sabe-se que: Área = Pi * R², aonde Pi = 3,14.
+/*Faï¿½a um programa que calcule e mostre a ï¿½rea de um cï¿½rculo. Sabe-se que: ï¿½rea = Pi * Rï¿½, aonde Pi = 3,14.
 */
+//estrutura sequÃªncial
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -14,7 +15,7 @@ int main(){
     scanf("%f", &raio);
 
     area = pi * (raio * raio);
-    printf("Área do circulo: %.2f. \n", area);
+    printf("ï¿½rea do circulo: %.2f. \n", area);
 
 
     return 0;

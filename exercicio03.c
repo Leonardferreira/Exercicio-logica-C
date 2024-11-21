@@ -1,6 +1,6 @@
-/* Faça um programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada dessas notas.  */
+/* Faï¿½a um programa que receba trï¿½s notas e seus respectivos pesos, calcule e mostre a mï¿½dia ponderada dessas notas.  */
 
-
+//estrutura sequÃªncial
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,7 +25,7 @@ int main(){
     somaPesos += peso[i];
     }
     float mediaPonderada = somaNotasPesos/somaPesos;
-    printf("A media ponderada das 3 notas é %2.f",mediaPonderada);
+    printf("A media ponderada das 3 notas ï¿½ %2.f",mediaPonderada);
     
 
     return 0;

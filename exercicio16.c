@@ -1,8 +1,8 @@
-/* Faça um programa que receba o ano de nascimento de uma pessoa e ano atual, calcule e mostre:
+/* Faï¿½a um programa que receba o ano de nascimento de uma pessoa e ano atual, calcule e mostre:
 a) a idade dessa pessoa;
-b) quantos anos essa pessoa terá em 2030;*/
+b) quantos anos essa pessoa terï¿½ em 2030;*/
 
-
+//estrutura sequÃªncial
 
 #include <stdio.h>
 #include <locale.h>

@@ -1,6 +1,6 @@
-/*Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o
-novo salário.*/
-
+/*Faï¿½a um programa que receba o salï¿½rio de um funcionï¿½rio e o percentual de aumento, calcule e mostre o valor do aumento e o
+novo salï¿½rio.*/
+//estrutura sequÃªncial
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,7 +18,7 @@ int main(){
 
     novoSalario = salario + (salario * aumento/100);
     printf("Valor do aumento: %2.f%% \n", aumento);
-    printf("Novo salãrio é : R$%2.f \n",novoSalario);
+    printf("Novo salï¿½rio ï¿½ : R$%2.f \n",novoSalario);
 
     return 0;
 }

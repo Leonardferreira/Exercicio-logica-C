@@ -2,6 +2,7 @@
 Sabendo disso, desenvolva um algoritmo que receba o tempo cronometrado, em
 segundos, e diga quantas horas, minutos e segundos se passaram a partir do tempo
 cronometrado.*/
+//estrutura sequêncial
 
 #include <stdio.h>
 #include <stdlib.h>

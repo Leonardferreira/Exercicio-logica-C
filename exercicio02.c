@@ -1,6 +1,6 @@
-/*faça um programa que receba três notas,calcule e mostre a mï¿½dia aritmï¿½tica entre elas.*/
+/*faï¿½a um programa que receba trï¿½s notas,calcule e mostre a mï¿½dia aritmï¿½tica entre elas.*/
 
-
+//estrutura sequÃªncial
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,7 +29,7 @@ int main(){
     counter += numb[i];
     }
     avg = counter /3;
-    printf("A mÃ©dia das notas digitadas são: %2.f", avg);   
+    printf("A mÃ©dia das notas digitadas sï¿½o: %2.f", avg);   
     
     return 0;
 }

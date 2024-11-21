@@ -1,8 +1,8 @@
-/*) Desenvolva um algoritmo que emule um caixa eletrônico. O usuário deve inserir o valor
-total a ser sacado da máquina e o algoritmo deve informar quantas notas de 100, 50,
-20, 10, 5 ou 2 reais serão entregues. Deve-se escolher as notas para que o usuário receba
-o menor número de notas possível.*/
-
+/*) Desenvolva um algoritmo que emule um caixa eletrï¿½nico. O usuï¿½rio deve inserir o valor
+total a ser sacado da mï¿½quina e o algoritmo deve informar quantas notas de 100, 50,
+20, 10, 5 ou 2 reais serï¿½o entregues. Deve-se escolher as notas para que o usuï¿½rio receba
+o menor nï¿½mero de notas possï¿½vel.*/
+//estrutura sequÃªncial
 
 #include <stdio.h>
 #include <locale.h>
@@ -22,7 +22,7 @@ int main(){
         valor %=cedulas[i];
     }
     for(i = 0; i <6; i++){
-        printf("número de notas de: R$%d,00  %d\n",cedulas[i],qtdCedulas[i]);
+        printf("nï¿½mero de notas de: R$%d,00  %d\n",cedulas[i],qtdCedulas[i]);
     }
 
     return 0;

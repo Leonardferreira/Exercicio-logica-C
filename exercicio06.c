@@ -1,5 +1,5 @@
-/* Faça um programa que receba o salário-base de um funcionário, calcule e mostre o salário a receber, sabendo-se que esse funcionário
-tem gratificação de 5% sobre o salário-base e paga imposto de 7% sobre o salário-base.
+/* Faï¿½a um programa que receba o salï¿½rio-base de um funcionï¿½rio, calcule e mostre o salï¿½rio a receber, sabendo-se que esse funcionï¿½rio
+tem gratificaï¿½ï¿½o de 5% sobre o salï¿½rio-base e paga imposto de 7% sobre o salï¿½rio-base.
 */
 
 #include <stdio.h>
@@ -7,28 +7,28 @@ tem gratificação de 5% sobre o salário-base e paga imposto de 7% sobre o salário
 #include <locale.h>
 #include <string.h>
 
-
+//estrutura sequÃªncial
 int main(){
     setlocale(LC_ALL,"portuguese");
     float salaBase, aumento;
-    char resposta[4]; // arry para resposta do tipo 'sim' ou não
+    char resposta[4]; // arry para resposta do tipo 'sim' ou nï¿½o
 
-    printf("Digite seu salário base: \n");
+    printf("Digite seu salï¿½rio base: \n");
     scanf("%f", &salaBase);
-    //Verificar aumento padrão de 5% ou mais
-    printf("Recebeu aumento maior que 5%%: (sim/não) \n");
-    scanf("%3s",resposta); // por ser uma arry não é necessário utilizar &
+    //Verificar aumento padrï¿½o de 5% ou mais
+    printf("Recebeu aumento maior que 5%%: (sim/nï¿½o) \n");
+    scanf("%3s",resposta); // por ser uma arry nï¿½o ï¿½ necessï¿½rio utilizar &
    
     // Estrutura if 
     if(strcmp (resposta, "sim") ==0){
         printf("Digite o percentual de aumento: \n");
         scanf("%f", &aumento);
-        salaBase += salaBase * (aumento/100)  - salaBase * 0.07; // aumento do salário com base no valor solicitado,menos 7%
-        printf("Seu salário é R$%2.f \n",salaBase);
+        salaBase += salaBase * (aumento/100)  - salaBase * 0.07; // aumento do salï¿½rio com base no valor solicitado,menos 7%
+        printf("Seu salï¿½rio ï¿½ R$%2.f \n",salaBase);
     
     }else {
         salaBase += salaBase * 0.05 - salaBase * 0.07;
-        printf("Salário a receber com aumento padrão mais decontos de 7%%, R$%2.f", salaBase);
+        printf("Salï¿½rio a receber com aumento padrï¿½o mais decontos de 7%%, R$%2.f", salaBase);
     }
 
 }

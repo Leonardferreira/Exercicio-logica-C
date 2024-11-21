@@ -1,13 +1,15 @@
 /* Sabe-se que:
-1 pé = 12 polegadas;
-1 jarda = 3 pés;
+1 pï¿½ = 12 polegadas;
+1 jarda = 3 pï¿½s;
 1 milha = 1760 jardas;
 
-Faça um programa que receba uma medida em pés, faça as conversões a seguir e mostre
+Faï¿½a um programa que receba uma medida em pï¿½s, faï¿½a as conversï¿½es a seguir e mostre
 os resultados.
 a) polegadas;
 b) jardas;
 c) milhas */
+//estrutura sequÃªncial
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -19,7 +21,7 @@ int main(){
     int pes;
     int poleg,jardas,milhas; 
 
-    printf("Digite a medida em pés: ");
+    printf("Digite a medida em pï¿½s: ");
     scanf("%d",&pes);
     poleg = pes * 12;
     jardas = pes / 3;

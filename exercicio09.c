@@ -1,5 +1,5 @@
-/*Faça um programa que calcule e mostre a área de um triângulo. Sabe-se que: Área = (base * altura)/2*/
-
+/*Faï¿½a um programa que calcule e mostre a ï¿½rea de um triï¿½ngulo. Sabe-se que: ï¿½rea = (base * altura)/2*/
+//estrutura sequÃªncial
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -15,7 +15,7 @@ int main(){
     scanf("%f", &altura);
 
     area = base * altura /2;
-    printf("Área do triângulo: %.2f",area);
+    printf("ï¿½rea do triï¿½ngulo: %.2f",area);
 
 
     return 0;

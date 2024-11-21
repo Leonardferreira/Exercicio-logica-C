@@ -1,11 +1,11 @@
-/*Faça um programa que receba um número  positivo e maior que zero, calcule e mostre:
+/*Faï¿½a um programa que receba um nï¿½mero  positivo e maior que zero, calcule e mostre:
 
-a) o número digitado ao quadrado;
-b) o número digitado ao cubo;
-c) a raiz quadrada do número digitado;
-d) a raiz cúbica do número digitado.
+a) o nï¿½mero digitado ao quadrado;
+b) o nï¿½mero digitado ao cubo;
+c) a raiz quadrada do nï¿½mero digitado;
+d) a raiz cï¿½bica do nï¿½mero digitado.
 */
-
+//estrutura sequÃªncial
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -14,7 +14,7 @@ int main(){
     int valor = 0;
     setlocale(LC_ALL,"portuguese");
 
-    printf("Digite um número positivo: \n");
+    printf("Digite um nï¿½mero positivo: \n");
     scanf("%d",&valor);
 
     
@@ -25,9 +25,9 @@ int main(){
     
     printf("Valor digitado: %d \n",valor);
     
-    printf("O valor digitaddo ao quadrado é %d\n", valor * valor);
-    printf("O valor digitaddo ao cubica é  %d\n", valor * valor * valor);
-    printf("O valor digitaddo sua raiz quadrada é %.2f\n",sqrt(valor)); //sqrt raiz quadrada
-    printf("O valor digitaddo sua cubica é %.2f\n", cbrt(valor)); // cbrt raiz cubica
+    printf("O valor digitaddo ao quadrado ï¿½ %d\n", valor * valor);
+    printf("O valor digitaddo ao cubica ï¿½  %d\n", valor * valor * valor);
+    printf("O valor digitaddo sua raiz quadrada ï¿½ %.2f\n",sqrt(valor)); //sqrt raiz quadrada
+    printf("O valor digitaddo sua cubica ï¿½ %.2f\n", cbrt(valor)); // cbrt raiz cubica
     return 0;
 }
